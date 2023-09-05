@@ -1,4 +1,4 @@
-package com.saucedemo.pages.PurchaseSteppers;
+package com.saucedemo.pages.PurchasePageSteppers;
 
 import com.saucedemo.pages.BasePage;
 import org.openqa.selenium.WebDriver;

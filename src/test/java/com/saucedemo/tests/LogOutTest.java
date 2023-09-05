@@ -6,13 +6,10 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class LogOutTest extends BaseTest {
-    @Test(dataProvider = "log-valid-data", dataProviderClass = TestDataProvider.class)
-    public void performLogInAndLogOut(String username, String password){
+    @Test
+    public void performLogInAndLogOut(){
         String LOGO_TEXT = "Swag Labs";
 
-        LogInPage.inputUsername(username);
-        LogInPage.inputPassword(password);
-        LogInPage.submitLogIn();
         HomePage homePage = LogInPage.goToHomePage();
         homePage.clickBurguerButton();
         homePage.clickLogOutButton();

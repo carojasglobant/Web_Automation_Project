@@ -24,19 +24,27 @@ public class BaseTest extends Reporter {
         WebDriverManager.chromedriver().setup();
     }
 
-    @Parameters("url")
+
     @BeforeMethod(alwaysRun = true)
-    public void testSetup(String url){
+    @Parameters({"url", "valid_username", "valid_password"})
+    public void testSetup(String url, String valid_username, String valid_password ){
         logInfo("Starting new Chrome driver session...");
         driver = new ChromeDriver();
         logInfo(format("Navigating to %s", url));
         driver.get(url);
         driver.manage().window().maximize();
+
+
+        logInfo("Perform LogIn before every method");
         LogInPage = new LogInPage(driver);
+        LogInPage.inputUsername(valid_username);
+        LogInPage.inputPassword(valid_password);
+        LogInPage.submitLogIn();
     }
     @AfterMethod(alwaysRun = true)
     public void teardown(){
         logInfo("Closing Chrome driver session...");
-//        driver.quit();
+        driver.quit();
     }
+
 }

@@ -1,6 +1,6 @@
 package com.saucedemo.pages;
 
-import com.saucedemo.pages.PurchaseSteppers.StepOnePurchasePage;
+import com.saucedemo.pages.PurchasePageSteppers.StepOnePurchasePage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -17,6 +17,9 @@ public class ShoppingCartPage extends BasePage{
 
     @FindBy(className = "checkout_button")
     WebElement checkOutButton;
+
+    @FindBy(className = "cart_item")
+    List<WebElement> cartItems;
 
     public ShoppingCartPage(WebDriver driver) { super(driver); }
 
@@ -36,5 +39,9 @@ public class ShoppingCartPage extends BasePage{
 
     public StepOnePurchasePage goToStepOnePurchasePage(){
         return new StepOnePurchasePage(getDriver());
+    }
+
+    public List<WebElement> getItems() {
+        return cartItems;
     }
 }

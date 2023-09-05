@@ -1,12 +1,10 @@
 package com.saucedemo.tests;
 
-
-import com.beust.ah.A;
 import com.saucedemo.data.TestDataProvider;
 import com.saucedemo.pages.HomePage;
-import com.saucedemo.pages.PurchaseSteppers.StepOnePurchasePage;
-import com.saucedemo.pages.PurchaseSteppers.StepThreeFinishPurchasePage;
-import com.saucedemo.pages.PurchaseSteppers.StepTwoPurchasePage;
+import com.saucedemo.pages.PurchasePageSteppers.StepOnePurchasePage;
+import com.saucedemo.pages.PurchasePageSteppers.StepThreeFinishPurchasePage;
+import com.saucedemo.pages.PurchasePageSteppers.StepTwoPurchasePage;
 import com.saucedemo.pages.ShoppingCartPage;
 import org.testng.Assert;
 import org.testng.annotations.Test;
@@ -14,7 +12,7 @@ import org.testng.annotations.Test;
 public class PurchaseProductTest extends BaseTest {
 
     @Test(dataProvider = "user-information-data", dataProviderClass = TestDataProvider.class)
-    public void purchase(String username, String password,String firstName, String lastName, String post_code){
+    public void purchase(String firstName, String lastName, String post_code){
         String HOME_PAGE_TITLE = "Products";
         String SHOPPING_CART_PAGE = "Your Cart";
         String CHECKOUT_TITLE = "Checkout: Your Information";
@@ -22,9 +20,7 @@ public class PurchaseProductTest extends BaseTest {
         String SUCCESSFUL_ORDER_MESSAGE = "Thank you for your order!";
 
         HomePage homePage = LogInPage.goToHomePage();
-        LogInPage.inputUsername(username);
-        LogInPage.inputPassword(password);
-        LogInPage.submitLogIn();
+
         Assert.assertEquals(homePage.getTitle(), HOME_PAGE_TITLE);
         homePage.getAmountOfRandomProducts(1);
         Assert.assertEquals(homePage.getShoppingCartBadgeNumber(), "1");
@@ -45,10 +41,4 @@ public class PurchaseProductTest extends BaseTest {
         Assert.assertEquals(stepThreeFinishPurchasePage.getCompleteHeader(), SUCCESSFUL_ORDER_MESSAGE);
 
     }
-
-
-
-
-
-
 }

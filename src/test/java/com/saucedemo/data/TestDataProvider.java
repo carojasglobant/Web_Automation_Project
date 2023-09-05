@@ -17,8 +17,6 @@ public class TestDataProvider {
     public static Object[][] testDataForPurchase() {
         return new Object[][] {
                 {
-                        "standard_user",
-                        "secret_sauce",
                         "Cristian",
                         "Rojas",
                         "051052"

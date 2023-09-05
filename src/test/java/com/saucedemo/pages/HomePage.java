@@ -60,7 +60,5 @@ public class HomePage extends BasePage {
         clickElement(logOutButton);
     }
 
-    public LogInPage goToLogInPage(){
-        return new LogInPage(getDriver());
-    }
+
 }
