@@ -9,7 +9,7 @@
 
     <test name="Sauce demo tests" >
         <classes>
-            <class name="com.saucedemo.tests.PurchaseProductTest" />
+            <class name="com.saucedemo.tests.LogOutTest" />
         </classes>
     </test>
 </suite>

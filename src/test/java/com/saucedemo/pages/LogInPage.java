@@ -14,6 +14,9 @@ public class LogInPage extends BasePage {
     @FindBy(id = "login-button")
     private WebElement logInButton;
 
+    @FindBy(className = "login_logo")
+    private WebElement logoText;
+
     public LogInPage(WebDriver driver) { super(driver); }
 
     public void inputUsername(String username) { typeText(usernameInput, username); }
@@ -26,6 +29,10 @@ public class LogInPage extends BasePage {
 
     public HomePage goToHomePage(){
         return new HomePage(getDriver());
+    }
+
+    public String getLogoText(){
+        return logoText.getText();
     }
 
 }
