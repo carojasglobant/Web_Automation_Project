@@ -3,10 +3,11 @@ package org.saucedemo;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 
+
+
 import static java.lang.String.format;
 
 public class Listener extends Reporter implements ITestListener {
-
     @Override
     public void onTestFailure(ITestResult result) {
         logInfo(format("Test: %s - [FAIL]", result.getName()));
