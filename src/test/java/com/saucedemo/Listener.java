@@ -1,8 +1,7 @@
-package org.saucedemo;
+package com.saucedemo;
 
-import org.testng.ITestListener;
 import org.testng.ITestResult;
-
+import org.testng.ITestListener;
 
 
 import static java.lang.String.format;

@@ -1,4 +1,4 @@
-package org.saucedemo.tests;
+package com.saucedemo.tests;
 
 import org.testng.annotations.Test;
 

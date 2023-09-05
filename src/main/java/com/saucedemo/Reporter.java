@@ -1,4 +1,4 @@
-package org.saucedemo;
+package com.saucedemo;
 
 import org.slf4j.LoggerFactory;
 
@@ -10,4 +10,5 @@ public class Reporter {
    public static void logError(String text) { getLogger().error(text); }
 
    public static void logWarning(String text) { getLogger().warn(text); }
+
 }
