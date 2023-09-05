@@ -1,5 +1,12 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
 <suite name="Suite" >
+
+    <listeners>
+        <listener class-name="org.saucedemo.Listener" />
+    </listeners>
+
+    <parameter name="url" value="https://www.saucedemo.com/" />
+
     <test name="Sauce demo tests" >
         <classes>
             <class name="org.saucedemo.tests.TestCaseTest" />
