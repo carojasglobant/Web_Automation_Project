@@ -1,7 +1,7 @@
 package com.saucedemo.tests;
 
 
-import com.saucedemo.pages.HomeLogInPage;
+import com.saucedemo.pages.LogInPage;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -16,7 +16,7 @@ import static java.lang.String.format;
 public class BaseTest extends Reporter {
 
     protected WebDriver driver;
-    protected HomeLogInPage homeLogInPage;
+    protected LogInPage LogInPage;
 
     @BeforeSuite(alwaysRun = true)
     public void webDriverSetup(){
@@ -32,11 +32,11 @@ public class BaseTest extends Reporter {
         logInfo(format("Navigating to %s", url));
         driver.get(url);
         driver.manage().window().maximize();
-        homeLogInPage = new HomeLogInPage(driver);
+        LogInPage = new LogInPage(driver);
     }
     @AfterMethod(alwaysRun = true)
     public void teardown(){
         logInfo("Closing Chrome driver session...");
-        driver.quit();
+//        driver.quit();
     }
 }

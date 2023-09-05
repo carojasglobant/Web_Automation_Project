@@ -4,7 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-public class HomeLogInPage extends BasePage {
+public class LogInPage extends BasePage {
     @FindBy(id = "user-name")
     private WebElement usernameInput;
 
@@ -14,7 +14,7 @@ public class HomeLogInPage extends BasePage {
     @FindBy(id = "login-button")
     private WebElement logInButton;
 
-    public HomeLogInPage(WebDriver driver) { super(driver); }
+    public LogInPage(WebDriver driver) { super(driver); }
 
     public void inputUsername(String username) { typeText(usernameInput, username); }
 
@@ -22,6 +22,10 @@ public class HomeLogInPage extends BasePage {
 
     public void submitLogIn () {
         clickElement(logInButton);
+    }
+
+    public HomePage goToHomePage(){
+        return new HomePage(getDriver());
     }
 
 }
