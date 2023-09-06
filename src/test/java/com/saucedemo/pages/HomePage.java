@@ -36,9 +36,7 @@ public class HomePage extends BasePage {
         Random rand = new Random();
         if(!products.isEmpty()) {
             for (int i = 0; i < amountOfProducts; i++) {
-//                int randomIndex = rand.nextInt(products.size());
                 clickElement(products.get(i));
-//                products.remove(randomIndex);
             }
         }
     }
