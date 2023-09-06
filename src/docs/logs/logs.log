@@ -1,0 +1,146 @@
+12:39:23.821 [main] INFO  com.saucedemo.Reporter - ### Web driver manager setup ###
+12:39:24.200 [main] INFO  com.saucedemo.Reporter - Closing Chrome driver session...
+12:39:24.209 [main] INFO  com.saucedemo.Reporter - Closing Chrome driver session...
+12:39:24.216 [main] INFO  com.saucedemo.Reporter - Closing Chrome driver session...
+12:41:25.001 [main] INFO  com.saucedemo.Reporter - ### Web driver manager setup ###
+12:41:25.366 [main] INFO  com.saucedemo.Reporter - Closing Chrome driver session...
+12:41:25.375 [main] INFO  com.saucedemo.Reporter - Closing Chrome driver session...
+12:41:25.380 [main] INFO  com.saucedemo.Reporter - Closing Chrome driver session...
+12:42:57.951 [main] INFO  com.saucedemo.Reporter - ### Web driver manager setup ###
+12:42:58.559 [main] INFO  com.saucedemo.Reporter - Starting new Chrome driver session...
+12:43:01.978 [main] INFO  com.saucedemo.Reporter - Navigating to https://www.saucedemo.com/
+12:43:02.789 [main] INFO  com.saucedemo.Reporter - Perform LogIn before every method
+12:43:03.765 [main] INFO  com.saucedemo.Reporter - Test: purchase - [Starting...]
+12:43:04.276 [main] INFO  com.saucedemo.Reporter - Verifying we are in the correct shopping cart page
+12:43:04.477 [main] INFO  com.saucedemo.Reporter - Filling the form
+12:43:05.172 [main] INFO  com.saucedemo.Reporter - Verifying we ended in the successful order page
+12:43:05.209 [main] INFO  com.saucedemo.Reporter - Test: purchase - [PASSED]
+12:43:05.210 [main] INFO  com.saucedemo.Reporter - Closing Chrome driver session...
+12:43:06.337 [main] INFO  com.saucedemo.Reporter - Starting new Chrome driver session...
+12:43:08.797 [main] INFO  com.saucedemo.Reporter - Navigating to https://www.saucedemo.com/
+12:43:09.604 [main] INFO  com.saucedemo.Reporter - Perform LogIn before every method
+12:43:10.209 [main] INFO  com.saucedemo.Reporter - Test: addAndRemoveThreeItemsInTheShoppingCart - [Starting...]
+12:43:10.273 [main] INFO  com.saucedemo.Reporter - Verifying that log in was successful
+12:43:10.741 [main] INFO  com.saucedemo.Reporter - Verifying the products were removed successful
+12:43:10.990 [main] INFO  com.saucedemo.Reporter - Test: addAndRemoveThreeItemsInTheShoppingCart - [PASSED]
+12:43:10.991 [main] INFO  com.saucedemo.Reporter - Closing Chrome driver session...
+12:43:11.985 [main] INFO  com.saucedemo.Reporter - Starting new Chrome driver session...
+12:43:14.101 [main] INFO  com.saucedemo.Reporter - Navigating to https://www.saucedemo.com/
+12:43:14.894 [main] INFO  com.saucedemo.Reporter - Perform LogIn before every method
+12:43:15.441 [main] INFO  com.saucedemo.Reporter - Test: performLogInAndLogOut - [Starting...]
+12:43:16.260 [main] INFO  com.saucedemo.Reporter - Test: performLogInAndLogOut - [PASSED]
+12:43:16.261 [main] INFO  com.saucedemo.Reporter - Closing Chrome driver session...
+12:56:58.292 [main] INFO  com.saucedemo.Reporter - ### Web driver manager setup ###
+12:56:58.678 [main] INFO  com.saucedemo.Reporter - Starting new Chrome driver session...
+12:57:00.794 [main] INFO  com.saucedemo.Reporter - Navigating to https://www.saucedemo.com/
+12:57:01.544 [main] INFO  com.saucedemo.Reporter - Perform LogIn before every method
+12:57:02.122 [main] INFO  com.saucedemo.Reporter - Test: purchase - [Starting...]
+12:57:02.504 [main] INFO  com.saucedemo.Reporter - Verifying we are in the correct shopping cart page
+12:57:02.761 [main] INFO  com.saucedemo.Reporter - Filling the form
+12:57:03.647 [main] INFO  com.saucedemo.Reporter - Verifying we ended in the successful order page
+12:57:03.689 [main] INFO  com.saucedemo.Reporter - Test: purchase - [PASSED]
+12:57:03.691 [main] INFO  com.saucedemo.Reporter - Closing Chrome driver session...
+12:57:04.592 [main] INFO  com.saucedemo.Reporter - Starting new Chrome driver session...
+12:57:06.062 [main] INFO  com.saucedemo.Reporter - Navigating to https://www.saucedemo.com/
+12:57:07.045 [main] INFO  com.saucedemo.Reporter - Perform LogIn before every method
+12:57:07.533 [main] INFO  com.saucedemo.Reporter - Test: addAndRemoveThreeItemsInTheShoppingCart - [Starting...]
+12:57:07.581 [main] INFO  com.saucedemo.Reporter - Verifying that log in was successful
+12:57:08.147 [main] INFO  com.saucedemo.Reporter - Verifying the products were removed successful
+12:57:08.469 [main] INFO  com.saucedemo.Reporter - Test: addAndRemoveThreeItemsInTheShoppingCart - [PASSED]
+12:57:08.472 [main] INFO  com.saucedemo.Reporter - Closing Chrome driver session...
+12:57:09.495 [main] INFO  com.saucedemo.Reporter - Starting new Chrome driver session...
+12:57:11.710 [main] INFO  com.saucedemo.Reporter - Navigating to https://www.saucedemo.com/
+12:57:12.607 [main] INFO  com.saucedemo.Reporter - Perform LogIn before every method
+12:57:13.216 [main] INFO  com.saucedemo.Reporter - Test: performLogInAndLogOut - [Starting...]
+12:57:14.035 [main] INFO  com.saucedemo.Reporter - Test: performLogInAndLogOut - [PASSED]
+12:57:14.036 [main] INFO  com.saucedemo.Reporter - Closing Chrome driver session...
+13:01:20.714 [main] INFO  com.saucedemo.Reporter - ### Web driver manager setup ###
+13:01:21.290 [main] INFO  com.saucedemo.Reporter - Starting new Chrome driver session...
+13:01:24.326 [main] INFO  com.saucedemo.Reporter - Navigating to https://www.saucedemo.com/
+13:01:25.530 [main] INFO  com.saucedemo.Reporter - Perform LogIn before every method
+13:01:26.282 [main] INFO  com.saucedemo.Reporter - Test: purchase - [Starting...]
+13:01:26.775 [main] INFO  com.saucedemo.Reporter - Verifying we are in the correct shopping cart page
+13:01:26.973 [main] INFO  com.saucedemo.Reporter - Filling the form
+13:01:27.744 [main] INFO  com.saucedemo.Reporter - Verifying we ended in the successful order page
+13:01:27.781 [main] INFO  com.saucedemo.Reporter - Test: purchase - [PASSED]
+13:01:27.783 [main] INFO  com.saucedemo.Reporter - Closing Chrome driver session...
+13:01:28.788 [main] INFO  com.saucedemo.Reporter - Starting new Chrome driver session...
+13:01:30.576 [main] INFO  com.saucedemo.Reporter - Navigating to https://www.saucedemo.com/
+13:01:31.496 [main] INFO  com.saucedemo.Reporter - Perform LogIn before every method
+13:01:32.260 [main] INFO  com.saucedemo.Reporter - Test: addAndRemoveThreeItemsInTheShoppingCart - [Starting...]
+13:01:32.317 [main] INFO  com.saucedemo.Reporter - Verifying that log in was successful
+13:01:32.950 [main] INFO  com.saucedemo.Reporter - Verifying the products were removed successful
+13:01:33.224 [main] INFO  com.saucedemo.Reporter - Test: addAndRemoveThreeItemsInTheShoppingCart - [PASSED]
+13:01:33.225 [main] INFO  com.saucedemo.Reporter - Closing Chrome driver session...
+13:01:34.239 [main] INFO  com.saucedemo.Reporter - Starting new Chrome driver session...
+13:01:36.574 [main] INFO  com.saucedemo.Reporter - Navigating to https://www.saucedemo.com/
+13:01:37.443 [main] INFO  com.saucedemo.Reporter - Perform LogIn before every method
+13:01:38.057 [main] INFO  com.saucedemo.Reporter - Test: performLogInAndLogOut - [Starting...]
+13:01:38.965 [main] INFO  com.saucedemo.Reporter - Test: performLogInAndLogOut - [PASSED]
+13:01:38.966 [main] INFO  com.saucedemo.Reporter - Closing Chrome driver session...
+13:28:57.470 [main] INFO  com.saucedemo.Reporter - ### Web driver manager setup ###
+13:28:58.552 [main] INFO  com.saucedemo.Reporter - Starting new Chrome driver session...
+13:29:00.553 [main] INFO  com.saucedemo.Reporter - Navigating to https://www.saucedemo.com/
+13:29:01.435 [main] INFO  com.saucedemo.Reporter - Perform LogIn before every method
+13:29:01.841 [main] INFO  com.saucedemo.Reporter - Test: purchase - [Starting...]
+13:29:02.119 [main] INFO  com.saucedemo.Reporter - Verifying we are in the correct shopping cart page
+13:29:02.249 [main] INFO  com.saucedemo.Reporter - Filling the form
+13:29:02.672 [main] INFO  com.saucedemo.Reporter - Verifying we ended in the successful order page
+13:29:02.697 [main] INFO  com.saucedemo.Reporter - Test: purchase - [PASSED]
+13:29:02.698 [main] INFO  com.saucedemo.Reporter - Closing Chrome driver session...
+13:29:03.547 [main] INFO  com.saucedemo.Reporter - Starting new Chrome driver session...
+13:29:05.100 [main] INFO  com.saucedemo.Reporter - Navigating to https://www.saucedemo.com/
+13:29:06.015 [main] INFO  com.saucedemo.Reporter - Perform LogIn before every method
+13:29:06.442 [main] INFO  com.saucedemo.Reporter - Test: addAndRemoveThreeItemsInTheShoppingCart - [Starting...]
+13:29:06.482 [main] INFO  com.saucedemo.Reporter - Verifying that log in was successful
+13:29:06.842 [main] INFO  com.saucedemo.Reporter - Verifying the products were removed successful
+13:29:07.050 [main] INFO  com.saucedemo.Reporter - Test: addAndRemoveThreeItemsInTheShoppingCart - [PASSED]
+13:29:07.051 [main] INFO  com.saucedemo.Reporter - Closing Chrome driver session...
+13:29:07.796 [main] INFO  com.saucedemo.Reporter - Starting new Chrome driver session...
+13:29:09.222 [main] INFO  com.saucedemo.Reporter - Navigating to https://www.saucedemo.com/
+13:29:10.058 [main] INFO  com.saucedemo.Reporter - Perform LogIn before every method
+13:29:10.516 [main] INFO  com.saucedemo.Reporter - Test: performLogInAndLogOut - [Starting...]
+13:29:11.311 [main] INFO  com.saucedemo.Reporter - Test: performLogInAndLogOut - [PASSED]
+13:29:11.311 [main] INFO  com.saucedemo.Reporter - Closing Chrome driver session...
+13:29:11.999 [main] INFO  com.saucedemo.Reporter - Starting new Chrome driver session...
+13:29:13.344 [main] INFO  com.saucedemo.Reporter - Navigating to https://www.saucedemo.com/
+13:29:14.177 [main] INFO  com.saucedemo.Reporter - Perform LogIn before every method
+13:29:14.646 [main] INFO  com.saucedemo.Reporter - Test: performLogInAndLogOut - [Starting...]
+13:29:14.647 [main] ERROR com.saucedemo.Reporter - Change the expected logo text to produce error
+13:29:15.496 [main] INFO  com.saucedemo.Reporter - Test: performLogInAndLogOut - [FAIL]
+13:29:15.497 [main] INFO  com.saucedemo.Reporter - Taking a screenshot: 
+13:29:15.636 [main] INFO  com.saucedemo.Reporter - Snapshot name: performLogInAndLogOut20230906132915.png
+13:29:15.641 [main] INFO  com.saucedemo.Reporter - Closing Chrome driver session...
+13:35:38.219 [main] INFO  com.saucedemo.Reporter - ### Web driver manager setup ###
+13:35:38.583 [main] INFO  com.saucedemo.Reporter - Starting new Chrome driver session...
+13:35:40.601 [main] INFO  com.saucedemo.Reporter - Navigating to https://www.saucedemo.com/
+13:35:41.428 [main] INFO  com.saucedemo.Reporter - Perform LogIn before every method
+13:35:41.869 [main] INFO  com.saucedemo.Reporter - Test: purchase - [Starting...]
+13:35:42.097 [main] INFO  com.saucedemo.Reporter - Verifying we are in the correct shopping cart page
+13:35:42.207 [main] INFO  com.saucedemo.Reporter - Filling the form
+13:35:42.619 [main] INFO  com.saucedemo.Reporter - Verifying we ended in the successful order page
+13:35:42.643 [main] INFO  com.saucedemo.Reporter - Test: purchase - [PASSED]
+13:35:42.644 [main] INFO  com.saucedemo.Reporter - Closing Chrome driver session...
+13:35:43.529 [main] INFO  com.saucedemo.Reporter - Starting new Chrome driver session...
+13:35:45.024 [main] INFO  com.saucedemo.Reporter - Navigating to https://www.saucedemo.com/
+13:35:45.874 [main] INFO  com.saucedemo.Reporter - Perform LogIn before every method
+13:35:46.233 [main] INFO  com.saucedemo.Reporter - Test: addAndRemoveThreeItemsInTheShoppingCart - [Starting...]
+13:35:46.265 [main] INFO  com.saucedemo.Reporter - Verifying that log in was successful
+13:35:46.542 [main] INFO  com.saucedemo.Reporter - Verifying the products were removed successful
+13:35:46.702 [main] INFO  com.saucedemo.Reporter - Test: addAndRemoveThreeItemsInTheShoppingCart - [PASSED]
+13:35:46.703 [main] INFO  com.saucedemo.Reporter - Closing Chrome driver session...
+13:35:47.361 [main] INFO  com.saucedemo.Reporter - Starting new Chrome driver session...
+13:35:48.715 [main] INFO  com.saucedemo.Reporter - Navigating to https://www.saucedemo.com/
+13:35:49.555 [main] INFO  com.saucedemo.Reporter - Perform LogIn before every method
+13:35:49.998 [main] INFO  com.saucedemo.Reporter - Test: performLogInAndLogOut - [Starting...]
+13:35:50.769 [main] INFO  com.saucedemo.Reporter - Test: performLogInAndLogOut - [PASSED]
+13:35:50.769 [main] INFO  com.saucedemo.Reporter - Closing Chrome driver session...
+13:35:51.436 [main] INFO  com.saucedemo.Reporter - Starting new Chrome driver session...
+13:35:52.971 [main] INFO  com.saucedemo.Reporter - Navigating to https://www.saucedemo.com/
+13:35:53.829 [main] INFO  com.saucedemo.Reporter - Perform LogIn before every method
+13:35:54.263 [main] INFO  com.saucedemo.Reporter - Test: performLogInAndLogOut - [Starting...]
+13:35:54.263 [main] ERROR com.saucedemo.Reporter - Change the expected logo text to produce error
+13:35:55.076 [main] INFO  com.saucedemo.Reporter - Test: performLogInAndLogOut - [FAIL]
+13:35:55.076 [main] INFO  com.saucedemo.Reporter - Taking a screenshot: 
+13:35:55.221 [main] INFO  com.saucedemo.Reporter - Snapshot name: performLogInAndLogOut20230906133555.png
+13:35:55.226 [main] INFO  com.saucedemo.Reporter - Closing Chrome driver session...
