@@ -26,4 +26,10 @@
             <class name="com.saucedemo.tests.LogOutTest" />
         </classes>
     </test>
+
+    <test name="Test Log Out Error" >
+        <classes>
+            <class name="com.saucedemo.tests.LogOutErrorTest" />
+        </classes>
+    </test>
 </suite>

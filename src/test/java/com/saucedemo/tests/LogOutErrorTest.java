@@ -4,10 +4,11 @@ import com.saucedemo.pages.HomePage;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class LogOutTest extends BaseTest {
+public class LogOutErrorTest extends BaseTest {
     @Test
     public void performLogInAndLogOut(){
-        String LOGO_TEXT = "Swag Labs";
+        logError("Change the expected logo text to produce error");
+        String LOGO_TEXT = "Swag Lab";
 
         // perform log out
         HomePage homePage = LogInPage.goToHomePage();
