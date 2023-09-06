@@ -10,6 +10,7 @@ public class LogOutTest extends BaseTest {
     public void performLogInAndLogOut(){
         String LOGO_TEXT = "Swag Labs";
 
+        // perform log out
         HomePage homePage = LogInPage.goToHomePage();
         homePage.clickBurguerButton();
         homePage.clickLogOutButton();

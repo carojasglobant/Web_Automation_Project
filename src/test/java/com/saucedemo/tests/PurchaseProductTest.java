@@ -21,22 +21,33 @@ public class PurchaseProductTest extends BaseTest {
 
         HomePage homePage = LogInPage.goToHomePage();
 
+        // assert we are inside the shopping page
         Assert.assertEquals(homePage.getTitle(), HOME_PAGE_TITLE);
         homePage.getAmountOfRandomProducts(1);
         Assert.assertEquals(homePage.getShoppingCartBadgeNumber(), "1");
+
+        // change to shopping cart
         ShoppingCartPage shoppingCartPage = homePage.goToShoppingCart();
-        logInfo("Verifying the product(s) were added successful");
+        logInfo("Verifying we are in the correct shopping cart page");
         Assert.assertEquals(shoppingCartPage.getTitle(), SHOPPING_CART_PAGE);
         shoppingCartPage.clickCheckOutButton();
+
+        // start the purchase stepper one
         StepOnePurchasePage stepOnePurchasePage = shoppingCartPage.goToStepOnePurchasePage();
         Assert.assertEquals(stepOnePurchasePage.getTitle(), CHECKOUT_TITLE);
+        logInfo("Filling the form");
         stepOnePurchasePage.inputFirstName(firstName);
         stepOnePurchasePage.inputLastName(lastName);
         stepOnePurchasePage.inputZipCode(post_code);
         stepOnePurchasePage.clickContinueButton();
+
+        // change to purchase stepper two
         StepTwoPurchasePage stepTwoPurchasePage = stepOnePurchasePage.goToSecondStepPurchasePage();
         Assert.assertEquals(stepTwoPurchasePage.getTitle(), OVERVIEW_TITLE);
         stepTwoPurchasePage.clickFinishButton();
+
+        // finish purchase
+        logInfo("Verifying we ended in the successful order page");
         StepThreeFinishPurchasePage stepThreeFinishPurchasePage = stepTwoPurchasePage.goToStepThreeFinishPurchasePage();
         Assert.assertEquals(stepThreeFinishPurchasePage.getCompleteHeader(), SUCCESSFUL_ORDER_MESSAGE);
 

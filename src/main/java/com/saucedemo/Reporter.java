@@ -1,9 +1,10 @@
 package com.saucedemo;
 
-import org.slf4j.LoggerFactory;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 public class Reporter {
-   private static org.slf4j.Logger getLogger() { return LoggerFactory.getLogger(Reporter.class); }
+   private static Logger getLogger() { return LogManager.getLogger(Reporter.class); }
 
    public static void logInfo(String text) { getLogger().info(text); }
 

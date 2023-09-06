@@ -11,15 +11,19 @@ public class ShoppingCartTest extends BaseTest {
         String HOME_PAGE_TITLE = "Products";
         String SHOPPING_CART_PAGE = "Your Cart";
 
+        // initialize in the homepage after log in
         HomePage homePage = LogInPage.goToHomePage();
-        logInfo("Verifying that log in was successful");
         Assert.assertEquals(homePage.getTitle(), HOME_PAGE_TITLE);
+
+        // adding three products
+        logInfo("Verifying that log in was successful");
         homePage.getAmountOfRandomProducts(3);
         Assert.assertEquals(homePage.getShoppingCartBadgeNumber(), "3");
 
+        // change the page to the shopping cart
         ShoppingCartPage shoppingCartPage = homePage.goToShoppingCart();
 
-        logInfo("Verifying the products were added successful");
+        logInfo("Verifying the products were removed successful");
         Assert.assertEquals(shoppingCartPage.getTitle(), SHOPPING_CART_PAGE);
         shoppingCartPage.removeTheThreeItemsAdded();
         Assert.assertEquals(shoppingCartPage.getItems().size(),0);

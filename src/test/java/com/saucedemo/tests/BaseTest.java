@@ -15,7 +15,7 @@ import static java.lang.String.format;
 
 public class BaseTest extends Reporter {
 
-    protected WebDriver driver;
+    protected static WebDriver driver;
     protected LogInPage LogInPage;
 
     @BeforeSuite(alwaysRun = true)
@@ -47,4 +47,7 @@ public class BaseTest extends Reporter {
         driver.quit();
     }
 
+    public WebDriver getDriver() {
+        return driver;
+    }
 }

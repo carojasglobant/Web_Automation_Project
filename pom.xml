@@ -17,7 +17,6 @@
     <testng.version>7.6.0</testng.version>
     <selenium.version>4.12.0</selenium.version>
     <webdrivermanager.version>5.5.2</webdrivermanager.version>
-    <slf4j.version>2.0.7</slf4j.version>
     <assertj.version>3.23.1</assertj.version>
   </properties>
 
@@ -43,17 +42,18 @@
     </dependency>
 
     <dependency>
-      <groupId>org.slf4j</groupId>
-      <artifactId>slf4j-api</artifactId>
-      <version>${slf4j.version}</version>
+      <groupId>org.apache.logging.log4j</groupId>
+      <artifactId>log4j-api</artifactId>
+      <version>2.20.0</version>
     </dependency>
 
     <dependency>
-      <groupId>org.slf4j</groupId>
-      <artifactId>slf4j-reload4j</artifactId>
-      <version>${slf4j.version}</version>
-      <scope>test</scope>
+      <groupId>org.apache.logging.log4j</groupId>
+      <artifactId>log4j-core</artifactId>
+      <version>2.20.0</version>
     </dependency>
+
+
 
     <dependency>
       <groupId>io.github.bonigarcia</groupId>
@@ -69,18 +69,7 @@
     </dependency>
 
   </dependencies>
-  <build>
-    <plugins>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-compiler-plugin</artifactId>
-        <configuration>
-          <source>8</source>
-          <target>8</target>
-        </configuration>
-      </plugin>
-    </plugins>
-  </build>
+
 </project>
 
 
