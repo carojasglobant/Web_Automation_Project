@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a9a65664-976e-45f9-8935-b3f69bf235e7" name="Changes" comment="Agrego ejemplos de logs e imagen de error" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="CRISTIAN_ROJAS_WEB_AUTOMATION_PRACTICE" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2UxIV5fVkjm0iE2rQOHzgmkYDcB" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/ca.rojas/Documents/sebaswa/webAutomationPractice",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ca.rojas\Documents\MavenPractice\Web_Automation_Project\src\test\resources" />
+      <recent name="C:\Users\ca.rojas\Documents\MavenPractice\Web_Automation_Project\src\main\resources" />
+      <recent name="C:\Users\ca.rojas\Documents\MavenPractice\Web_Automation_Project\src" />
+      <recent name="C:\Users\ca.rojas\Documents\MavenPractice\Web_Automation_Project\src\main\java\com\saucedemo" />
+      <recent name="C:\Users\ca.rojas\Documents\MavenPractice\Web_Automation_Project\src\main" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Web_Automation_Project" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Web_Automation_Project" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/ca.rojas/Documents/MavenPractice/Web_Automation_Project/src/suite.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="sauce_demo_project" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/suite.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="C:/Users/ca.rojas/Documents/MavenPractice/Web_Automation_Project/src/test/resources/suite.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="sauce_demo_project" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/suite.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PurchaseProductTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="sauce_demo_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.saucedemo.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.saucedemo.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.saucedemo.tests.PurchaseProductTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.C:/Users/ca.rojas/Documents/MavenPractice/Web_Automation_Project/src/test/resources/suite.xml" />
+        <item itemvalue="TestNG.C:/Users/ca.rojas/Documents/MavenPractice/Web_Automation_Project/src/suite.xml" />
+        <item itemvalue="TestNG.PurchaseProductTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a9a65664-976e-45f9-8935-b3f69bf235e7" name="Changes" comment="" />
+      <created>1693874825233</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1693874825233</updated>
+    </task>
+    <task id="LOCAL-00001" summary="First Commit">
+      <option name="closed" value="true" />
+      <created>1693876352858</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1693876352858</updated>
+    </task>
+    <task id="LOCAL-00002" summary="First Commit">
+      <option name="closed" value="true" />
+      <created>1693877042160</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1693877042160</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Second commit, configuration of the test environment">
+      <option name="closed" value="true" />
+      <created>1693879479500</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1693879479500</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Add basepage, basetest">
+      <option name="closed" value="true" />
+      <created>1693882350167</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1693882350167</updated>
+    </task>
+    <task id="LOCAL-00005" summary="First test working propperly">
+      <option name="closed" value="true" />
+      <created>1693888142032</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1693888142032</updated>
+    </task>
+    <task id="LOCAL-00006" summary="half first functionality done">
+      <option name="closed" value="true" />
+      <created>1693893523566</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1693893523566</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Log out test case done&#10;Purchase test case done">
+      <option name="closed" value="true" />
+      <created>1693929097299</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1693929097299</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Shopping cart working properly">
+      <option name="closed" value="true" />
+      <created>1693934869600</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1693934869601</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Reporter working properly, the the snapshots are taken">
+      <option name="closed" value="true" />
+      <created>1694022400863</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1694022400863</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Agrego descripción en el Readme">
+      <option name="closed" value="true" />
+      <created>1694025217835</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1694025217835</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Agrego descripción en el Readme">
+      <option name="closed" value="true" />
+      <created>1694025374544</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1694025374544</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Agrego ejemplos de logs e imagen de error">
+      <option name="closed" value="true" />
+      <created>1694025806191</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1694025806191</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First Commit" />
+    <MESSAGE value="Second commit, configuration of the test environment" />
+    <MESSAGE value="Add basepage, basetest" />
+    <MESSAGE value="First test working propperly" />
+    <MESSAGE value="half first functionality done" />
+    <MESSAGE value="Log out test case done&#10;Purchase test case done" />
+    <MESSAGE value="Shopping cart working properly" />
+    <MESSAGE value="Reporter working properly, the the snapshots are taken" />
+    <MESSAGE value="Agrego descripción en el Readme" />
+    <MESSAGE value="Agrego ejemplos de logs e imagen de error" />
+    <option name="LAST_COMMIT_MESSAGE" value="Agrego ejemplos de logs e imagen de error" />
+  </component>
+</project>
